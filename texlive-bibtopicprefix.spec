@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/bibtopicprefix
+# catalog-date 2008-08-17 01:00:50 +0200
+# catalog-license lppl
+# catalog-version 1.10
 Name:		texlive-bibtopicprefix
 Version:	1.10
 Release:	1
@@ -46,6 +52,7 @@ bibtopic package.
 %doc %{_texmfdistdir}/source/latex/bibtopicprefix/bibtopicprefix.drv
 %doc %{_texmfdistdir}/source/latex/bibtopicprefix/bibtopicprefix.dtx
 %doc %{_texmfdistdir}/source/latex/bibtopicprefix/bibtopicprefix.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ bibtopic package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
