@@ -6,7 +6,7 @@
 # catalog-version 1.10
 Name:		texlive-bibtopicprefix
 Version:	1.10
-Release:	9
+Release:	10
 Summary:	Prefix references to bibliographies produced by bibtopic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibtopicprefix
