@@ -1,6 +1,6 @@
 Name:		texlive-bibtopicprefix
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Prefix references to bibliographies produced by bibtopic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibtopicprefix
