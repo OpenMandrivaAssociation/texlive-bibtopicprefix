@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Prefix references to bibliographies produced by bibtopic
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibtopicprefix
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bibtopicprefix
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibtopicprefix.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibtopicprefix.doc.r%{version}.tar.xz
